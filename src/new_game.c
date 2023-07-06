@@ -45,6 +45,8 @@
 #include "mystery_gift.h"
 #include "union_room_chat.h"
 #include "constants/items.h"
+#include "constants/map_groups.h"
+#include "islandgame.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -126,7 +128,13 @@ static void ClearFrontierRecord(void)
 
 static void WarpToTruck(void)
 {
-    SetWarpDestination(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), WARP_ID_NONE, -1, -1);
+    // Inject our custom startup logic, replacing the truck intro.
+    s8 group = ISLANDGAME_STARTING_MAP_GROUP;
+    s8 num = ISLANDGAME_STARTING_MAP_NUM;
+    s8 x = ISLANDGAME_STARTING_X;
+    s8 y = ISLANDGAME_STARTING_Y;
+
+    SetWarpDestination(group, num, WARP_ID_NONE, x, y);
     WarpIntoMap();
 }
 
