@@ -1057,3 +1057,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/ForestBaseCamp_FrontLawn/scripts.inc"
+
+	.include "data/maps/IslandJungle_Route1/scripts.inc"
