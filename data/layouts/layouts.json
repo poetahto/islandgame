@@ -4430,6 +4430,26 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/IslandJungle_Route1/border.bin",
       "blockdata_filepath": "data/layouts/IslandJungle_Route1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_BASE_CAMP_INDOOR_ROOM1",
+      "name": "ForestBaseCamp_IndoorRoom1_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ForestBaseCamp_IndoorRoom1/border.bin",
+      "blockdata_filepath": "data/layouts/ForestBaseCamp_IndoorRoom1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_BASE_CAMP_INDOOR_ROOM2",
+      "name": "ForestBaseCamp_IndoorRoom2_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ForestBaseCamp_IndoorRoom2/border.bin",
+      "blockdata_filepath": "data/layouts/ForestBaseCamp_IndoorRoom2/map.bin"
     }
   ]
 }
