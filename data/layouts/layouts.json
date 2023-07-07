@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/ForestBaseCamp_FrontLawn/border.bin",
       "blockdata_filepath": "data/layouts/ForestBaseCamp_FrontLawn/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOREST_BASE_CAMP_INTERIOR1F",
+      "name": "ForestBaseCamp_Interior1F_Layout",
+      "width": 36,
+      "height": 25,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/ForestBaseCamp_Interior1F/border.bin",
+      "blockdata_filepath": "data/layouts/ForestBaseCamp_Interior1F/map.bin"
     }
   ]
 }
