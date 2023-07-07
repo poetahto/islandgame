@@ -9,6 +9,7 @@
 #include "islandgame.h"
 
 static void SetPlayerName(const u8* name);
+static const u8 sName[] = _(ISLANDGAME_PLAYER_NAME);
 
 // This gets called after the intro cutscene, right when the new game is started.
 void IslandGameCustomStartup()
@@ -25,19 +26,16 @@ void IslandGameCustomStartup()
 
     // I'm honestly not sure why you need the weird syntax around string literals,
     // but it breaks pretty badly w/out it so...
-    const u8 name[] = _(ISLANDGAME_PLAYER_NAME);
-    SetPlayerName(name);
+    SetPlayerName(sName);
 }
 
 // Almost exactly copied from src/main_menu.c
 static void SetPlayerName(const u8 *name)
 {
-    u8 i;
-
-    for (i = 0; i < PLAYER_NAME_LENGTH; i++)
+    for (u8 i = 0; i < PLAYER_NAME_LENGTH; i++)
     {
         gSaveBlock2Ptr->playerName[i] = name[i];
     }
 
-    gSaveBlock2Ptr->playerName[i] = EOS;
+    gSaveBlock2Ptr->playerName[PLAYER_NAME_LENGTH] = EOS;
 }
