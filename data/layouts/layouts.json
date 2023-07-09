@@ -4440,6 +4440,16 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/ForestBaseCamp_Interior2F/border.bin",
       "blockdata_filepath": "data/layouts/ForestBaseCamp_Interior2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ISLAND_JUNGLE_ROUTE1",
+      "name": "IslandJungle_Route1_Layout",
+      "width": 60,
+      "height": 62,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/IslandJungle_Route1/border.bin",
+      "blockdata_filepath": "data/layouts/IslandJungle_Route1/map.bin"
     }
   ]
 }

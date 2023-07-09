@@ -1061,3 +1061,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/ForestBaseCamp_Interior1F/scripts.inc"
 
 	.include "data/maps/ForestBaseCamp_Interior2F/scripts.inc"
+
+	.include "data/maps/IslandJungle_Route1/scripts.inc"
